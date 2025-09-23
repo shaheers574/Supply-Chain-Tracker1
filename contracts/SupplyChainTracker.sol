@@ -1,5 +1,5 @@
 //
-
+pragma solidity ^0.8.24;
 contract Project {
     // Product structure to store product information
     struct Product {
@@ -197,4 +197,5 @@ contract Project {
         return authorizedStakeholders[_stakeholder];
     }
 }
+
 
